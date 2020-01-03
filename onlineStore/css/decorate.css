@@ -1,0 +1,304 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-size: large;
+}
+
+#loginDiv, #kklll {
+	margin-left: 40%;
+}
+
+#loginbutton {
+	margin-left: 5%;
+}
+
+header#slogon {
+	text-align: center;
+	font-size: 300%;
+	font-family: 华文行楷, serif;
+}
+
+div#container {
+	display: table;
+	width: 100%;
+}
+
+div.tablerow {
+	display: table-row;
+}
+
+section#personalMSG {
+	display: table-cell;
+	height: 100%;
+	width: 20%;
+}
+
+section#personalMSG #nickname {
+	font-size: 180%;
+}
+
+section#personalMSG ul {
+	font-size: 130%;
+}
+
+section#personalMSG ul a{
+	text-decoration: none;
+}
+
+section#cmdyMSG, #modiPerMSG, #goodsMSG, #collectMSG {
+	display: table-cell;
+}
+
+#modiPerMSG table{
+	margin-left: 50px;
+}
+
+section#cmdyMSG header p, section#collectMSG p#cc {
+	font-size: 200%;
+}
+
+section#cmdyMSG div {
+	margin: 20px 0px;
+}
+
+.ca, .cb {
+	text-decoration: none;
+	font-size: 110%;
+	color: #000;
+}
+
+.cmdy {
+	width: 400px;
+	font-size: 80%;
+	height: 110px;
+}
+
+.cmdy, #goodsMSG div {
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+  	-moz-transition: all 0.5s;
+  	-o-transition: all 0.5s;
+  	-ms-transition: all 0.5s;
+	/*overflow: hidden;*/
+}
+
+.cmdy:hover, #goodsMSG div:hover {
+	box-shadow: 0 0 4px 0 rgba(1,1,250,0.6), 0 2px 4px 0 rgba(232,237,250,0.5);
+	transform: scale(1.1);
+	-webkit-transfrom: scale(1.1);
+	-moz-transfrom: scale(1.1);
+	-o-transfrom: scale(1.1);
+	-ms-transfrom: scale(1.1);
+}
+
+.cmdy img {
+	width: 100px;
+	height: 100px;
+	float: left;
+}
+
+#goodsTable, .count table, table#allUser, table#allCommod, table#addTable {
+	border-collapse: collapse;
+}
+
+#goodsTable th, #goodsTable td, 
+.count th, .count td, 
+#allUser th, #allUser td,
+#allCommod th, #allCommod td,
+#addTable th, #addTable td {
+	border: 1px solid purple;
+	padding: 5px;
+}
+
+#goodsTable th{
+	width: 10%;
+}
+
+table#allUser, table#allCommod {
+	text-align: center;
+}
+
+img#cart, img#Favor, img#wallet {
+	margin-top: 5px; 
+	vertical-align: bottom; 
+	padding-bottom: 6px;
+}
+
+img#Favor {
+	transition: all 0.3s;
+}
+
+section#personalMSG ul, #adminChoice ul {
+	list-style-type: none;
+}
+
+section#cmdyMSG footer a, #goodsMSG section a, a#finalAdd{
+	text-decoration: none;
+}
+
+#goodsMSG section a, a#finalAdd{
+	color: #000;
+}
+
+#goodsMSG div {
+	width: 30%;
+	height: 1.5em;
+	font-size: 2.7em;
+}
+
+section#g2 {
+	margin-top: 10px;
+}
+footer#copyright {
+	text-align: center;
+}
+
+/*.picName:hover*/
+.buttonshadow:hover, .picName:hover {
+	box-shadow: 1px 1px 5px rgb(166, 136, 177) inset, -1px -1px 3px rgb(166, 136, 177) inset;
+	/*box-shadow: 1px 1px 5px rgb(237, 224, 230) inset, -1px -1px 3px rgb(237, 224, 230) inset;*/
+	border-radius: 2px;
+}
+
+#modiPerMSG button {
+	margin: 0px 0px 0px 25%;
+}
+
+button#cbutton {
+	font-size: inherit;
+}
+
+div.count {
+	margin: 10px 0px;
+}
+
+
+.count button, button#cbutton, #searchBu, a#finalAdd，.button {
+	border: 0;
+    background-color: #003C9D;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+	font-size: inherit;
+}
+
+button#cbutton, a#finalAdd {
+	background-color: rgb(237, 109, 0);
+}
+.count button:hover, button#cbutton:hover, #searchBu:hover, a#finalAdd:hover, .button:hover{
+	color: #003C9D;
+  	background-color: #fff;
+	border: 1px solid #003C9D;
+}
+
+
+td.cpic, td.cname, td.cnum, td.cprice, td.cmunip {
+	text-align: center;
+}
+
+div.signImg img {
+	transform: scale(0.5);
+}
+
+div.signImg {
+	margin-bottom: -36px;
+}
+
+#allCommod img {
+	width: 50px;
+	height: 50px;
+}
+
+td.cmDes {
+	font-size: 0.8em;
+}
+
+tr.adm {
+	color: blue;
+}
+
+#allSearch span {
+	float: left;
+	margin-right: 25px;
+	margin-top: 3px;
+}
+
+#searchBu, a#finalAdd {
+    border-radius: 2px;
+	padding: 3px;
+}
+
+#allSearch {
+	margin-bottom: 10px;
+}
+#adminChoice {
+	list-style: none;
+	padding-left: 0px;
+}
+
+#adminChoice li{
+	display: inline;
+	margin: 0px 10px;
+}
+
+
+#adminChoice li a {
+	font-size: 120%;
+	text-decoration: none;
+	color: #000;
+}
+
+.selected {
+	border-bottom: 3px solid rgb(255, 223, 178);
+}
+
+#choiceRe {
+	margin-top: 0.8em;
+}
+
+a#hop {
+	position: fixed;
+	bottom: 0px;
+}
+
+#allCommod input, textarea.cmdyDes {
+	display: none;
+}
+
+#allCommod span {
+	display: inline;
+}
+
+a#finalAdd {
+	display: inline;
+	margin-left: 1.5em;
+}
+
+#picForm {
+	position: absolute;
+	top: 0;
+	display: none;
+}
+
+#addTable {
+	margin-left: 5em;
+}
+
+#sandr {
+	text-align: center;
+}
+
+#sandr input {
+	margin: 1px 20px;
+}
+
+#picForm input {
+	margin-left: 10px;
+}
+
+#picForm{
+	background-color: rgba(248, 198, 181, 0.7);
+	border-radius: 5px;
+	text-align: center;
+}
